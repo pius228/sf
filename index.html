@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ПОДАЧА
+            ЭВАКУАТОРА
+        </title>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+        />
+    </head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="d-lg-flex align-items-center">
+                <a href="" class="logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            Эвакуатор в Москве
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            Услуги
+                            <img class="menu__stroke" src="img/Vector 1.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            О компании
+                            <img class="menu__stroke" src="img/Vector 1.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav-mobile-modal" id="navigation" style="display: none;">
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            Эвакуатор в Москве
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            Услуги
+                            <img class="menu__stroke" src="img/Vector 1.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__btn">
+                            О компании
+                            <img class="menu__stroke" src="img/Vector 1.svg" alt="">
+                        </a>
+                    </li>
+                    <a class="information__phone" href="tel:79999876543">
+                        +7 (999) 987-65-43
+                    </a>
+                  </ul>
+                  <button class="burger" type="button">
+                    <img src="img/burger.svg" alt="">
+                </button> 
+                <div class="information">
+                    <div class="d-flex">
+                        <a class="information__location" href="">
+                            <img src="img/location.svg" alt="">
+                        </a>
+                        <a class="information__phone" href="tel:79999876543">
+                            <img class="information__phone_img" src="img/phone.png" alt="">
+                            +7 (999) 987-65-43
+                        </a>
+                        <a href="" class="information__whatsupp">
+                            <img src="img/whatsupp.svg" alt="">
+                        </a>
+                        <a href="" class="information__telegram">
+                            <img src="img/telegram.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="when d-flex">
+                        <p class="when__work">
+                            Работаем:
+                        </p>
+                        <div class="when__block d-flex align-items-center">
+                            <img class="when__icon" src="img/everyday.svg" alt="">
+                            <p class="when__work">
+                                ежедневно
+                            </p>
+                        </div>
+                        <div class="when__block d-flex align-items-center">
+                            <img class="when__icon" src="img/allday.svg" alt="">
+                            <p class="when__work">
+                                круглосуточно
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="wer">
+                <button type="button" class="butn communication__phone">
+                    Заказать звонок
+                </button>
+                <p class="wer__text">Перезвоним через 30 сек.</p> 
+                </div>
+                <div id="overlay" class="overlay"></div>
+                <div class="modal-form ">   
+                    <form class="form-phone form-phone_modal" novalidate="novalidate">
+                    <button class="form-phone__close" type="button">
+                        <img src="img/close.svg" alt="">
+                    </button>
+                    <h3 class="form-phone__title">
+                        Заказать обратный звонок
+                    </h3>
+                      <input type="text" for="name" class="section-conecction__input form-phone__input form-phone__input_name" placeholder="Имя" name="firstName" required="">
+                      <input type="text" class="section-conecction__input     form-phone__input form-phone__input_email" placeholder="E-mail" name="email" required="">
+                      <input type="tel" class="section-conecction__input form-book__input form-phone__input_phone" placeholder="Телефон" name="phoneNumber" for="tel" required="">
+                      <button class="butn form-phone__btn">Заказать звонок</button>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-header">
+        <div class="container">
+            <div class="wrapp d-xl-flex justify-content-between align-items-center">
+                <div class="wrapper">
+                    <h1 class="wrapper__title">
+                        Эвакуатор в Москве <br> дешево и быстро
+                    </h1>
+                    <div class="d-flex of flex-wrap">
+                        <div class="d-flex offer-achivments align-items-center">
+                            <img class="icon-shadow" src="img/icon1.png" alt="">
+                            <p class="size">
+                                Подача за 20 минут <br>
+                                сэкономит ваше время
+                            </p>
+                        </div>
+                        <div class="d-flex offer-achivments align-items-center">
+                            <img class="icon-shadow" src="img/icon2.png" alt="">
+                            <p class="size">
+                                Самые низкие цены <br>
+                                дешевле не найдете
+                            </p>
+                        </div>
+                        <div class="d-flex offer-achivments align-items-center">
+                            <img class="icon-shadow" src="img/icon3.png" alt="">
+                            <p class="size">
+                                Наличными или  <br>
+                                банковской картой
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-md-flex align-items-center">
+                    <input class="wrapper__input" placeholder="+7 XXX XXX XX XX " type="tel">
+                    <img class="wrapper__phonein" src="img/phonein.svg" alt="">
+                    <button type="button" class="butn wrapper__btn">Обратный звонок</button>
+                </div>
+                <div class="of d-flex align-items-center">
+                    <input type="checkbox">
+                    <p class="wrapper__check">
+                        Даю согласие на <span class="wrapper__check_thin">обработку персональных данных</span>
+                    </p>
+                </div>
+                </div>
+                <img class="maincar" src="img/mainimg.png" alt="" class="wrapper__img">
+            </div>
+            </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="our-work d-flex align-items-center justify-content-center">
+                <img src="img/arrow.svg" alt="">
+                Наши работы
+            </h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide1.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide2.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide3.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide4.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide5.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img class="swiper-fs" src="img/slide6.png" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+              <h2 class="our-work our-work2 d-flex align-items-center justify-content-center">
+                <img src="img/arrow.svg" alt="">
+                РАСЧЕТ СТОИМОСТИ ЭВАКУАТОРА
+            </h2>
+        </div>
+    </section>
+    <section class="calculation-section">
+        <div class="container">
+            <div class="d-xl-flex calculation">
+                <img src="img/GAZEL.png" alt="">
+                <div class="block">
+                    <p class="type">
+                        Тип автомобиля
+                    </p>
+                    <select class="engine" name="engine" id="engine">
+                        <option value="0">Легковой автомобиль 1.5т</option>
+                        <option value="10">Легковой автомобиль 2т</option>
+                        <option value="10">Aвтомобиль 3т</option>
+                    </select>
+                    <p class="type">
+                        Количество заблокированных колес
+                    </p>
+                    <form class="numberwheel">
+                        <div class="radio-offer d-sm-flex">
+                        <div class="radio">
+                          <input class="radio__input"type="radio" id="contactChoice1"
+                           name="contact">
+                          <label class="radio__text radio__text_bottom" for="contactChoice1">Нет</label>
+                        </div>
+                        <div class="radio">
+                            <input class="radio__input"type="radio" id="contactChoice2"
+                             name="contact">
+                            <label class="radio__text radio__text_bottom" for="contactChoice2">1</label>
+                          </div>
+                          <div class="radio">
+                            <input class="radio__input"type="radio" id="contactChoice3"
+                             name="contact">
+                            <label class="radio__text radio__text_bottom" for="contactChoice3">2</label>
+                          </div>
+                          <div class="radio">
+                            <input class="radio__input"type="radio" id="contactChoice4"
+                             name="contact">
+                            <label class="radio__text radio__text_bottom" for="contactChoice4">3</label>
+                          </div>
+                          <div class="radio">
+                            <input class="radio__input"type="radio" id="contactChoice5"
+                             name="contact">
+                            <label class="radio__text radio__text_bottom" for="contactChoice5">4</label>
+                          </div>
+                          </div>
+                      </form>
+
+                </div>
+                <div class="le">
+                    <div class="bl1">
+                      <p class="type">
+                          Руль вращается
+                        </p>
+                        <div class="radio-offer radio-offer-bottom d-flex">
+                          <div class="radio">
+                            <input class="radio__input"type="radio" id="contactChoice7"
+                             name="contact">
+                            <label class="radio__text radio__text_bottom" for="contactChoice7">Нет</label>
+                          </div>
+                          <div class="radio">
+                              <input class="radio__input"type="radio" id="contactChoice6"
+                               name="contact">
+                              <label class="radio__text radio__text_bottom" for="contactChoice6">Да</label>
+                            </div>
+                            </div>
+                    </div>
+                    <form action="">
+                      <div class="bl2">
+                          <p class="type">
+                              КПП работает
+                            </p>
+                            <div class="radio-offer radio-offer-bottom d-flex">
+                              <div class="radio">
+                                <input class="radio__input"type="radio" id="contactChoice8"
+                                 name="contact">
+                                <label class="radio__text radio__text_bottom" for="contactChoice8">Нет</label>
+                              </div>
+                              <div class="radio">
+                                  <input class="radio__input"type="radio" id="contactChoice9"
+                                   name="contact">
+                                  <label class="radio__text radio__text_bottom" for="contactChoice9">Да</label>
+                                </div>
+                                </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <button class="butn cal-price"type="button">
+                Рассчитать стоимость
+            </button>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2 class="our-work our-work3 d-flex align-items-center justify-content-center">
+                <img src="img/arrow.svg" alt="">
+                ВИДЫ ЭВАКУАТОРОВ
+            </h2>
+            <p class="paragraph">
+                Эвакуатор вызвать можно в любую точку города.
+                Мы предлагаем своим клиентам низкие тарифы за счет того, что техника поддерживается в исправном состоянии.
+                Много заказов выполняется ежедневно и заказчики, оставшись довольны сервисом, обращаются к нам вновь.
+                Большой автопарк гарантирует, что в нужный момент заявка будет принята.
+            </p>
+            <div class="sale d-flex flex-wrap justify-content-between">
+                <div class="sale__item">
+                    <a href="">
+                        <div class="flex-arrow justify-content-between align-items-center d-flex">
+                            <p class="flex-arrow__text">
+                                Эвакуатор
+                            </p>
+                            <img class="arroow" src="img/arr.svg" alt="">
+                        </div>
+                        <img src="img/cart1.png" alt="">
+                    </a>
+                </div>
+                <div class="sale__item">
+                    <a href="">
+                        <div class="flex-arrow justify-content-between align-items-center d-flex">
+                            <p class="flex-arrow__text">
+                                Грузовой эвакуатор
+                            </p>
+                            <img class="arroow" src="img/arr.svg" alt="">
+                        </div>
+                        <img src="img/cart2.png" alt="">
+                    </a>
+                </div>
+                <div class="sale__item">
+                    <a href="">
+                        <div class="flex-arrow justify-content-between align-items-center d-flex">
+                            <p class="flex-arrow__text">
+                                Эвакуатор-манипулятор
+                            </p>
+                            <img class="arroow" src="img/arr.svg" alt="">
+                        </div>
+                        <img src="img/cart3.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <h2 class="our-work our-work4 d-flex align-items-center justify-content-center">
+            <img src="img/arrow.svg" alt="">
+            ВИДЫ ЭВАКУАТОРОВ
+        </h2>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <form class="wrapper1" action="#">
+                <input placeholder="Имя" class="input-reg" type="text">
+                <input placeholder="E-mail" class="input-reg" type="email">
+                <input placeholder="Телефон" class="input-reg" type="tel">
+                <button class="butn wrapper__btn"type="submit">
+                    Отправить заявку
+                </button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <a href="" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <a href="" class="home">
+                    Главная
+                </a>
+            </div>
+            <div class="d-flex align-items-end justify-content-between">
+                <div class="fon">
+                    <div class="nopr">
+                        <p class="nopr__text">
+                            ООО “Вымпел” <br>УНП 123456789
+                        </p>
+                    </div>
+                    <div class="information information2">
+                        <a href="mailto:info@info.ru">info@info.ru</a>
+                        <p class="where">
+                            г.Москва, ул.Дж.Гарибальди, 213, к. 49А
+                        </p>
+                    </div>
+                </div>
+                <div class="communication2">
+                    <a class="communication2__phone" href="tel:79999876543">
+                        +7 (999) 987-65-43
+                    </a>
+                    <p class="allday">
+                        Круглосуточно, ежедневно
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/main.js"></script>
+</body>
+</html>
